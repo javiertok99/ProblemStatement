@@ -1,7 +1,7 @@
 package com.example.a16022934.problemstatement;
 
 public class Song {
-    private int id;
+    private int _id;
     private String title;
     private String singers;
     private int year;
@@ -15,11 +15,11 @@ public class Song {
     }
 
     public int getId() {
-        return id;
+        return _id;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setId(int _id) {
+        this._id = _id;
     }
 
     public String getTitle() {
